@@ -1,0 +1,25 @@
+# R specific files
+.Rhistory
+.RData
+.Ruserdata
+
+# Output files
+*.tif
+*.png
+*.pdf
+*.csv
+
+# Directories
+Hoxc4 KO/
+Hoxc4 OE/
+cell_type_trajectories/
+参考文献/
+聚类/
+
+# Large data files
+*.rds
+*.h5ad
+*.zip
+
+# Temporary files
+git-installer.exe
