@@ -38,10 +38,17 @@ run_cellchat <- function(seurat_obj, celltype_col, species = "mouse",
   # Load CellChat
   library(CellChat)
   
-  # 安全检查细胞类型列
-  if (!celltype_col %in% colnames(seurat_obj@meta.data)) {
+  # 安全检查细胞类型列 - 支持大小写不敏感匹配
+  colnames_meta <- colnames(seurat_obj@meta.data)
+  celltype_col_match <- match(tolower(celltype_col), tolower(colnames_meta))
+  
+  if (is.na(celltype_col_match)) {
     stop(paste("Column", celltype_col, "not found in Seurat object metadata. Available columns:", 
-               paste(colnames(seurat_obj@meta.data), collapse=", ")))
+               paste(colnames_meta, collapse=", ")))
+  } else if (colnames_meta[celltype_col_match] != celltype_col) {
+    # 大小写不匹配，使用实际列名
+    cat(paste("Warning: Case mismatch - using", colnames_meta[celltype_col_match], "instead of", celltype_col, "\n"))
+    celltype_col <- colnames_meta[celltype_col_match]
   }
   
   # Check if assay exists
