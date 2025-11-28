@@ -4,39 +4,43 @@
 #' @param seurat_obj A Seurat object
 #' @param target_gene Character string specifying the target gene name
 #' @param celltype_col Column name in metadata containing cell type information
-#' @param group_method Method to split cells ("median" or "percentile")
+#' @param group_method Method to split cells ("median", "percentile", "binary", or "auto")
 #' @param percentile Percentile threshold (only used when group_method = "percentile")
 #' @param species Species ("human" or "mouse")
 #' @param assay Assay to use (default "RNA")
 #' @param slot Slot to use (default "data")
-#' @param min_cells Minimum number of cells per cell type for CellChat (default 10)
 #' @param max_expr Maximum expression threshold for CellChat (default 0.95)
 #' @param min_pct Minimum percentage of cells expressing a gene for CellChat (default 0.1)
 #' @param comm_level Level of communication matrix ("pathway" or "interaction")
 #' @param mantel_method Correlation method for Mantel test ("pearson", "spearman", or "kendall")
 #' @param permutations Number of permutations for Mantel test significance testing
-#' @param plot_type Type of plot to generate ("all", "hierarchy", "circle", or "heatmap")
+#' @param plot_type Type of plot to generate ("all", "hierarchy", "circle", "heatmap", or "correlation")
 #' @param max_links Maximum number of links to display in plots
-#' @param output_dir Directory to save results
 #' @param save_objects Whether to save CellChat objects (default TRUE)
+#' @param with_couple Logical, whether to add connection lines in correlation plot
 #' @return A list containing all analysis results
 #' @examples
 #' result <- compare_cellchat(
 #'   seurat_obj = seurat_obj,
-#'   target_gene = "Hoxc4",
-#'   celltype_col = "cell_type",
-#'   group_method = "median",
-#'   species = "mouse",
-#'   output_dir = "cellchat_results"
+#'   target_gene = "DOCK5",
+#'   celltype_col = "cell_subtype",
+#'   group_method = "auto",
+#'   species = "human"
 #' )
 #' @export
 compare_cellchat <- function(seurat_obj, target_gene, celltype_col, 
-                             group_method = "median", percentile = 0.5, 
-                             species = "mouse", assay = "RNA", slot = "data",
-                             min_cells = 10, max_expr = 0.95, min_pct = 0.1,
-                             comm_level = "pathway", mantel_method = "pearson", 
+                             group_method = "auto", percentile = 0.5, 
+                             species = "human", assay = "RNA", slot = "data",
+                             max_expr = 0.95, min_pct = 0.1,
+                             comm_level = "interaction", mantel_method = "pearson", 
                              permutations = 999, plot_type = "all", max_links = 50,
-                             output_dir = "cellchat_results", save_objects = TRUE) {
+                             save_objects = TRUE,
+                             with_couple = TRUE) {
+  
+  # 设置默认参数
+  min_cells_high <- 3  # 高表达组最小细胞数
+  min_cells_low <- 10  # 低表达组最小细胞数
+  output_dir <- paste0("cellchat_results_", target_gene)  # 结果输出目录
   
   # Create output directory if it doesn't exist
   if (!dir.exists(output_dir)) {
@@ -62,11 +66,11 @@ compare_cellchat <- function(seurat_obj, target_gene, celltype_col,
   cat("\n=== Step 2: Running CellChat analysis ===\n")
   cat("Analyzing high expression group...\n")
   cellchat_high <- run_cellchat(grouped_obj$high_expr, celltype_col, species, 
-                                 min_cells = min_cells, max_expr = max_expr, min_pct = min_pct)
+                                 min_cells = min_cells_high, max_expr = max_expr, min_pct = min_pct)
   
   cat("Analyzing low expression group...\n")
   cellchat_low <- run_cellchat(grouped_obj$low_expr, celltype_col, species, 
-                                min_cells = min_cells, max_expr = max_expr, min_pct = min_pct)
+                                min_cells = min_cells_low, max_expr = max_expr, min_pct = min_pct)
   
   # Save CellChat objects if requested
   if (save_objects) {
@@ -99,7 +103,8 @@ compare_cellchat <- function(seurat_obj, target_gene, celltype_col,
   # Step 5: Create visualizations
   cat("\n=== Step 5: Creating visualizations ===\n")
   plots <- plot_comparison(cellchat_high, cellchat_low, mantel_result, 
-                           output_dir, plot_type, max_links)
+                           output_dir, plot_type, max_links,
+                           with_couple = with_couple, gene_name = target_gene)
   
   # Step 6: Compile results
   results <- list(
@@ -116,9 +121,12 @@ compare_cellchat <- function(seurat_obj, target_gene, celltype_col,
       group_method = group_method,
       percentile = percentile,
       species = species,
+      min_cells_high = min_cells_high,
+      min_cells_low = min_cells_low,
       comm_level = comm_level,
       mantel_method = mantel_method,
-      permutations = permutations
+      permutations = permutations,
+      output_dir = output_dir
     )
   )
   

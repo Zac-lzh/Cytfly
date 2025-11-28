@@ -15,7 +15,7 @@ print(head(seurat_obj@meta.data))
 result <- compare_cellchat(
   seurat_obj = seurat_obj,
   target_gene = "Hoxc4",
-  celltype_col = "cell_type",  # Replace with your actual cell type column name
+  celltype_col = "cellType",  # Replace with your actual cell type column name
   group_method = "median",
   species = "mouse",
   output_dir = "d:/桌面/celloracle/m1/Hoxc4_cellchat_results"

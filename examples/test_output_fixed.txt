@@ -1,0 +1,730 @@
+﻿涓存椂鐩綍宸茶缃负锛?D:/R_Temp 
+
+------------------------------------------------------------
+[INFO] 鍩哄洜鐗瑰紓鎬ч€氫俊缃戠粶鐩稿叧鎬у垎鏋愬嚱鏁版祴璇曡剼鏈?
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 寮€濮嬫祴璇曞熀鍥犵壒寮傛€ч€氫俊缃戠粶鐩稿叧鎬у垎鏋愬嚱鏁?
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 鍒涘缓妯℃嫙鐨凷eurat瀵硅薄鐢ㄤ簬娴嬭瘯
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 鎴愬姛鍒涘缓妯℃嫙Seurat瀵硅薄锛屽寘鍚?200 涓粏鑳炲拰 1000 涓熀鍥?------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯鍩烘湰鍔熻兘
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 鍒嗘瀽鍩哄洜: gene_1
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.863332 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1\gene_1_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1/expression_comparison_gene_1.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1/gene_1_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_1 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 鍩烘湰鍔熻兘娴嬭瘯鎴愬姛锛氭垚鍔熺敓鎴愮浉鍏虫€у浘
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 楂樿〃杈剧粏鑳炴暟閲? 100
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 浣庤〃杈剧粏鑳炴暟閲? 100
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] Mantel娴嬭瘯缁撴灉: r = -0.196544806066607 , p = 0.85
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯澶氫釜鍩哄洜
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯鍩哄洜: gene_1
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1\gene_1_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1/expression_comparison_gene_1.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1/gene_1_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_1 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_1 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 鍩哄洜 gene_1 鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯鍩哄洜: gene_10
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_10 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_10 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_10 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_10 : None of the requested variables were found: gene_10 
+Failed to fetch gene format rna_gene_10 : None of the requested variables were found: rna_gene_10 
+Failed to fetch gene format SCT_gene_10 : None of the requested variables were found: SCT_gene_10 
+Failed to fetch gene format RNA_gene_10 : None of the requested variables were found: RNA_gene_10 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_10\gene_10_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_10 : None of the requested variables were found: gene_10 
+Failed to fetch gene format rna_gene_10 : None of the requested variables were found: rna_gene_10 
+Failed to fetch gene format SCT_gene_10 : None of the requested variables were found: SCT_gene_10 
+Failed to fetch gene format RNA_gene_10 : None of the requested variables were found: RNA_gene_10 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_10/expression_comparison_gene_10.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_10/gene_10_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_10 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_10 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 鍩哄洜 gene_10 鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯鍩哄洜: gene_100
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_100 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_100 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_100 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_100 : None of the requested variables were found: gene_100 
+Failed to fetch gene format rna_gene_100 : None of the requested variables were found: rna_gene_100 
+Failed to fetch gene format SCT_gene_100 : None of the requested variables were found: SCT_gene_100 
+Failed to fetch gene format RNA_gene_100 : None of the requested variables were found: RNA_gene_100 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_100\gene_100_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_100 : None of the requested variables were found: gene_100 
+Failed to fetch gene format rna_gene_100 : None of the requested variables were found: rna_gene_100 
+Failed to fetch gene format SCT_gene_100 : None of the requested variables were found: SCT_gene_100 
+Failed to fetch gene format RNA_gene_100 : None of the requested variables were found: RNA_gene_100 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_100/expression_comparison_gene_100.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_100/gene_100_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_100 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\gene_100 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 鍩哄洜 gene_100 鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯鍩哄洜: DOCK5
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: DOCK5 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\DOCK5 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\DOCK5 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format DOCK5 : None of the requested variables were found: DOCK5 
+Failed to fetch gene format rna_DOCK5 : None of the requested variables were found: rna_DOCK5 
+Failed to fetch gene format SCT_DOCK5 : None of the requested variables were found: SCT_DOCK5 
+Failed to fetch gene format RNA_DOCK5 : None of the requested variables were found: RNA_DOCK5 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\DOCK5\DOCK5_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format DOCK5 : None of the requested variables were found: DOCK5 
+Failed to fetch gene format rna_DOCK5 : None of the requested variables were found: rna_DOCK5 
+Failed to fetch gene format SCT_DOCK5 : None of the requested variables were found: SCT_DOCK5 
+Failed to fetch gene format RNA_DOCK5 : None of the requested variables were found: RNA_DOCK5 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\DOCK5/expression_comparison_DOCK5.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\DOCK5/DOCK5_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? DOCK5 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\DOCK5 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 鍩哄洜 DOCK5 鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 澶氫釜鍩哄洜娴嬭瘯瀹屾垚:  4 / 4 涓熀鍥犲垎鏋愭垚鍔?------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯涓嶅悓鐨勭粏鑳炰簹鍨嬪垪
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯缁嗚優绫诲瀷鍒? cell_subtype
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\cell_subtype 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 3.045659 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\cell_subtype\gene_1_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\cell_subtype/expression_comparison_gene_1.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\cell_subtype/gene_1_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_1 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\cell_subtype 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 浣跨敤鍒?cell_subtype 鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯缁嗚優绫诲瀷鍒? custom_cell_type
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\custom_cell_type 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\custom_cell_type 
+Using cell subtype column: custom_cell_type 
+Extracting gene expression data...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = 0.6548979 p = 0.1666667 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\custom_cell_type\gene_1_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\custom_cell_type/expression_comparison_gene_1.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\custom_cell_type/gene_1_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_1 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\custom_cell_type 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 浣跨敤鍒?custom_cell_type 鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯缁嗚優绫诲瀷鍒? 涓嶅瓨鍦ㄧ殑鍒?------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\涓嶅瓨鍦ㄧ殑鍒?
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\涓嶅瓨鍦ㄧ殑鍒?
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\涓嶅瓨鍦ㄧ殑鍒梊gene_1_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\涓嶅瓨鍦ㄧ殑鍒?expression_comparison_gene_1.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\涓嶅瓨鍦ㄧ殑鍒?gene_1_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_1 
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\cell_columns\涓嶅瓨鍦ㄧ殑鍒?
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 浣跨敤鍒?涓嶅瓨鍦ㄧ殑鍒?鍒嗘瀽鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 缁嗚優浜氬瀷鍒楁祴璇曞畬鎴?  3 / 3 涓垪娴嬭瘯鎴愬姛
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯杈圭晫鎯呭喌
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯杈圭晫鎯呭喌1: 鏋佸皯閲忕粏鑳?(10涓粏鑳?
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\small_dataset 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\small_dataset 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.411323 
+High expression group cells count: 5 
+Low expression group cells count: 5 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = 0.1969585 p = 0.2402778 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\small_dataset\gene_1_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format gene_1 : None of the requested variables were found: gene_1 
+Failed to fetch gene format rna_gene_1 : None of the requested variables were found: rna_gene_1 
+Failed to fetch gene format SCT_gene_1 : None of the requested variables were found: SCT_gene_1 
+Failed to fetch gene format RNA_gene_1 : None of the requested variables were found: RNA_gene_1 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\small_dataset/expression_comparison_gene_1.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\small_dataset/gene_1_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚? gene_1 
+  - 楂樿〃杈剧粏鑳炴暟: 5 
+  - 浣庤〃杈剧粏鑳炴暟: 5 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\small_dataset 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯杈圭晫鎯呭喌2: 绌哄瓧绗︿覆鍩哄洜鍚?------------------------------------------------------------
+Starting gene-specific correlation analysis for gene:  
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\empty_gene 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\empty_gene 
+Auto-detected cell subtype column: cell_subtype 
+Using cell subtype column: cell_subtype 
+Extracting gene expression data...
+Failed to fetch gene format  : None of the requested variables were found:  
+Failed to fetch gene format rna_ : 'names' attribute [1] must be the same length as the vector [0] 
+Failed to fetch gene format SCT_ : None of the requested variables were found: SCT_ 
+Failed to fetch gene format RNA_ : None of the requested variables were found: RNA_ 
+Gene expression data not found, using mock data...
+Grouping cells based on gene expression...
+Median expression: 2.840127 
+High expression group cells count: 100 
+Low expression group cells count: 100 
+Using mock communication matrices...
+Using fallback simulated communication matrices
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Mantel test result: r = -0.1965448 p = 0.85 
+Generating correlation heatmap...
+Using real computed communication matrix
+Using real computed low matrix for Mantel test
+Performing Mantel test...
+Using linkET package for Mantel test (same as linket.R)
+[DEBUG] linkET::mantel_test澶辫触锛屽皾璇晇egan::mantel
+Using linkET::qcorrplot with parameters exactly matching linket.R
+Error creating correlation heatmap: `col_names` contains duplicate values. 
+[DEBUG] 姝ｅ湪淇濆瓨鐩稿叧鎬у垎鏋愬浘...
+[DEBUG] 鐩稿叧鎬у垎鏋愬浘宸蹭繚瀛樿嚦: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\empty_gene\_correlation_analysis.png 
+[DEBUG] 鏂囦欢鏄惁瀛樺湪: TRUE 
+Generating expression comparison plot data...
+Extracting real expression data from Seurat object...
+Failed to fetch gene format  : None of the requested variables were found:  
+Failed to fetch gene format rna_ : 'names' attribute [1] must be the same length as the vector [0] 
+Failed to fetch gene format SCT_ : None of the requested variables were found: SCT_ 
+Failed to fetch gene format RNA_ : None of the requested variables were found: RNA_ 
+Using simulated expression data...
+Creating expression comparison plot...
+Expression comparison plot object created successfully, class: ggplot2::ggplot 
+Expression comparison plot saved to: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\empty_gene/expression_comparison_.pdf 
+[DEBUG] 姝ｅ湪淇濆瓨琛ㄨ揪姣旇緝鍥?..
+[DEBUG] 琛ㄨ揪姣旇緝鍥惧凡淇濆瓨鑷? D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\empty_gene/_expression_comparison.png 
+[DEBUG] 杩斿洖缁撴灉:
+  - 鍩哄洜鍚?  
+  - 楂樿〃杈剧粏鑳炴暟: 100 
+  - 浣庤〃杈剧粏鑳炴暟: 100 
+  - 鐩稿叧鎬у浘瀛樺湪: TRUE 
+  - 琛ㄨ揪鍥惧瓨鍦? TRUE 
+  - 杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases\empty_gene 
+  - 鎵ц鐘舵€? 鎴愬姛 
+Function execution completed, returning results list
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯杈圭晫鎯呭喌3: 闈濻eurat瀵硅薄杈撳叆
+------------------------------------------------------------
+Starting gene-specific correlation analysis for gene: gene_1 
+[DEBUG] 浣跨敤杈撳嚭鐩綍: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases 
+[DEBUG] 杈撳嚭鐩綍宸叉垚鍔熷垱寤?瀛樺湪: D:\妗岄潰\celloracle\m1\CellChatCompare\test_results\edge_cases 
+Error in plot_gene_specific_correlation function: Input object is not a valid Seurat object 
+
+------------------------------------------------------------
+[INFO] 杈圭晫鎯呭喌娴嬭瘯瀹屾垚:  1 /3 涓祴璇曢€氳繃
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] ===== 娴嬭瘯缁撴灉鎬荤粨 =====
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 鍩烘湰鍔熻兘娴嬭瘯: 閫氳繃
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 澶氫釜鍩哄洜娴嬭瘯: 閫氳繃
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 涓嶅悓缁嗚優鍒楁祴璇? 閫氳繃
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 杈圭晫鎯呭喌娴嬭瘯: 澶辫触
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 鎬讳綋娴嬭瘯缁撴灉: 3/4 娴嬭瘯閫氳繃 (75%)
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] ===== 浣跨敤鎸囧崡 =====
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 鍦ㄦ偍鑷繁鐨勯」鐩腑浣跨敤姝ゅ嚱鏁?
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 1. 鍔犺浇鍑芥暟: source('path/to/plot_gene_specific_correlation.R')
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 2. 鍑嗗鎮ㄧ殑Seurat瀵硅薄
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 3. 璋冪敤鍑芥暟: results <- plot_gene_specific_correlation(
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO]        seurat_obj = your_seurat_object,
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO]        gene_name = 'your_gene_name',
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO]        output_dir = 'output_directory'
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO]    )
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 4. 鏌ョ湅缁撴灉: 缁撴灉浼氫繚瀛樺湪output_dir涓?------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯瀹屾垚锛屾€昏繍琛屾椂闂? 0.35 鍒嗛挓
+------------------------------------------------------------
+
+------------------------------------------------------------
+[INFO] 娴嬭瘯鎴愬姛瀹屾垚锛?------------------------------------------------------------
