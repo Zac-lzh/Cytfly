@@ -2,37 +2,16 @@
 % Please edit documentation in R/Cytfly.R
 \name{Cytfly}
 \alias{Cytfly}
-\title{Cytfly - 单细胞通讯分析}
+\title{Cytfly - 通讯概率差异分析 (审美定制版)}
 \usage{
-Cytfly(seurat_obj, target_gene, species, group_by = "auto", output_dir = ".")
-}
-\arguments{
-\item{seurat_obj}{Seurat对象}
-
-\item{target_gene}{目标基因名称}
-
-\item{species}{物种，如"human"或"mouse"}
-
-\item{group_by}{分组方式，默认自动}
-
-\item{output_dir}{输出目录}
-}
-\value{
-输出两张图片：高表达组和低表达组的细胞通讯图
+Cytfly(
+  seurat_obj,
+  target_gene,
+  species,
+  annotation_col = "seurat_clusters",
+  output_dir = "./Cytfly_output"
+)
 }
 \description{
-对Seurat对象根据目标基因表达量分组，进行CellChat分析并可视化
-}
-\examples{
-\dontrun{
-# 示例用法
-library(Seurat)
-library(Cytfly)
-
-# 加载示例数据
-seurat_obj <- pbmc_small
-
-# 运行Cytfly分析
-Cytfly(seurat_obj, target_gene = "CD3D", species = "human", output_dir = ".")
-}
+Cytfly - 通讯概率差异分析 (审美定制版)
 }

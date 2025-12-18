@@ -15,10 +15,8 @@ Cytfly是一个用于分析单细胞RNA-seq数据中基因表达与细胞通讯�
 
 ```R
 # 安装开发版本
-devtools::install_github("yourusername/Cytfly")
+devtools::install_github("Zac-lzh/Cytfly")
 
-# 或从本地安装
-devtools::install_local("path/to/Cytfly", dependencies = TRUE)
 ```
 
 ## 依赖包
