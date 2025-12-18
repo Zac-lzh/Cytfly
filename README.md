@@ -73,10 +73,11 @@ Cytfly使用linkET包绘制细胞通讯热力图，具有以下特点：
 - 显著性标记
 - 基因名称注释
 
-## 示例
+### 分析结果示例
 
-![高表达组通讯图](output/high_expression_communication.png)
-![低表达组通讯图](output/low_expression_communication.png)
+| 高表达组 (High) | 低表达组 (Low) |
+| :---: | :---: |
+| ![High](man/figures/high_strength_final.png) | ![Low](man/figures/low_strength_final.png) |
 
 ## 故障排除
 
