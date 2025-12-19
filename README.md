@@ -96,7 +96,8 @@ Cytfly使用linkET包绘制细胞通讯热力图，具有以下特点：
 
 ## 作者
 
-[Your Name] [Your Email]
+[Zac-lzh]
+[18960339395@163.com]
 
 ## 许可证
 
